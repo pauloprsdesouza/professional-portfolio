@@ -123,7 +123,7 @@
 export default {
   data() {
     return {
-      imageSrc: require("../assets/front-matter-image.jpg")
+      imageSrc: path.resolve(__dirname, 'static/images/front-matter-image.jpg')
     };
   }
 };
