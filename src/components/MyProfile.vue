@@ -4,7 +4,7 @@
       <div class="card-body">
         <div class="row mb-4">
           <div class="col-md-3 mb-4 text-center">
-            <img src="https://github.com/pauloprsdesouza/professional-portfolio/blob/master/src/assets/front-matter-image.png?raw=true" width="250" class="img-fluid">
+            <img src="https://github.com/pauloprsdesouza/professional-portfolio/blob/master/src/assets/front-matter-image.jpg?raw=true" width="250" class="img-fluid">
           </div>
           <div class="col-md-9">
             <h1 class="mb-5">
