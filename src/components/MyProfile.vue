@@ -12,7 +12,7 @@
               <small class="text-muted">
                 <p
                   style="font-size:1.2rem;"
-                >Full Stack Developer Web e Mobile, Pesquisador Acadêmico, Cientista de Dados, Consultor</p>
+                >Desenvolvedor Full Stack Web e Mobile, Pesquisador Acadêmico, Cientista de Dados, Consultor, Analista de Dados</p>
               </small>
             </h1>
             <div class="row">

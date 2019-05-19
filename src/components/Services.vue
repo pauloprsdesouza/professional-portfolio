@@ -1,8 +1,8 @@
 <template>
-  <div class="container">
+  <div id="services" class="container">
     <h1 class="text-center mb-4">Serviços</h1>
     <div class="row justify-content-md-center mb-4">
-      <div class="col-md" data-aos="zoom-in">
+      <div class="col-md-3 col-sm-6" data-aos="zoom-in">
         <div class="card text-center border-0">
           <div class="card-body">
             <div class="circle circle-green">
@@ -13,7 +13,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md" data-aos="zoom-in">
+      <div class="col-md-3 col-sm-6" data-aos="zoom-in">
         <div class="card text-center border-0">
           <div class="card-body">
             <div class="circle circle-yellow">
@@ -24,7 +24,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md" data-aos="zoom-in">
+      <div class="col-md-3 col-sm-6" data-aos="zoom-in">
         <div class="card text-center border-0">
           <div class="card-body">
             <div class="circle circle-red">
@@ -37,7 +37,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md" data-aos="zoom-in">
+      <div class="col-md-3 col-sm-6" data-aos="zoom-in">
         <div class="card text-center border-0">
           <div class="card-body">
             <div class="circle circle-blue">
@@ -52,7 +52,7 @@
       </div>
     </div>
     <div class="row justify-content-md-center">
-      <div class="col-md" data-aos="zoom-in">
+      <div class="col-md-3 col-sm-6" data-aos="zoom-in">
         <div class="card text-center border-0">
           <div class="card-body">
             <div class="circle circle-blue">
@@ -65,7 +65,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md" data-aos="zoom-in">
+      <div class="col-md-3 col-sm-6" data-aos="zoom-in">
         <div class="card text-center border-0">
           <div class="card-body">
             <div class="circle circle-orange">
@@ -78,7 +78,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md" data-aos="zoom-in">
+      <div class="col-md-3 col-sm-6" data-aos="zoom-in">
         <div class="card text-center border-0">
           <div class="card-body">
             <div class="circle circle-gray">
@@ -91,7 +91,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md" data-aos="zoom-in">
+      <div class="col-md-3 col-sm-6" data-aos="zoom-in">
         <div class="card text-center border-0">
           <div class="card-body">
             <div class="circle circle-purple">

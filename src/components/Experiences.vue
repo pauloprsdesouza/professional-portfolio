@@ -1,6 +1,6 @@
 <template>
   <div class="banner banner-gray border-top">
-    <div id="EXPERIENSES" class="container">
+    <div id="experiences" class="container">
       <h1 class="text-center mb-4">Experiência Profissional</h1>
       <div class="row">
         <div class="col-md-6 mb-4" data-aos="fade-up">
@@ -41,42 +41,6 @@
           <div class="card">
             <div class="card-header">
               <div class="float-left font-weight-bold">
-                <i class="fas fa-user-tie fa-2x align-middle"></i> Desenvolvedor Junior
-              </div>
-              <span class="float-right text-success">2013 - 2016</span>
-            </div>
-            <div class="card-body text-left text-muted">
-              <h6 class="mb-3">
-                <i class="far fa-building"></i> &nbsp;
-                <a
-                  href="https://www.indracompany.com/"
-                  target="_blank"
-                >Indra</a>
-              </h6>
-              <p class="card-text text-justify">
-                <i class="fas fa-tags"></i> &nbsp;
-                <span v-if="indra.typeView == 'S'">{{indra.textSmall}}</span>
-                <span v-if="indra.typeView != 'S'">{{indra.textFull}}</span>
-                <button
-                  class="btn btn-link"
-                  v-if="indra.typeView == 'S'"
-                  v-on:click="indra.typeView = 'F'"
-                >mais</button>
-                <button
-                  class="btn btn-link"
-                  v-if="indra.typeView != 'S'"
-                  v-on:click="indra.typeView = 'S'"
-                >menos</button>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 mb-4" data-aos="fade-up">
-          <div class="card">
-            <div class="card-header">
-              <div class="float-left font-weight-bold">
                 <i class="fas fa-user-tie fa-2x align-middle"></i> Desenvolvedor Sênior
               </div>
               <span class="float-right text-success">2016 - 2017</span>
@@ -84,10 +48,7 @@
             <div class="card-body text-left text-muted">
               <h6 class="mb-3">
                 <i class="far fa-building"></i> &nbsp;
-                <a
-                  href="https://stefanini.com/pt-br/"
-                  target="_blank"
-                >Stefanini</a>
+                <a href="https://stefanini.com/pt-br/" target="_blank">Stefanini</a>
               </h6>
               <p class="card-text text-justify">
                 <i class="fas fa-tags"></i> &nbsp;
@@ -102,6 +63,39 @@
                   class="btn btn-link"
                   v-if="stefanini.typeView != 'S'"
                   v-on:click="stefanini.typeView = 'S'"
+                >menos</button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-4" data-aos="fade-up">
+          <div class="card">
+            <div class="card-header">
+              <div class="float-left font-weight-bold">
+                <i class="fas fa-user-tie fa-2x align-middle"></i> Desenvolvedor Junior
+              </div>
+              <span class="float-right text-success">2013 - 2016</span>
+            </div>
+            <div class="card-body text-left text-muted">
+              <h6 class="mb-3">
+                <i class="far fa-building"></i> &nbsp;
+                <a href="https://www.indracompany.com/" target="_blank">Indra</a>
+              </h6>
+              <p class="card-text text-justify">
+                <i class="fas fa-tags"></i> &nbsp;
+                <span v-if="indra.typeView == 'S'">{{indra.textSmall}}</span>
+                <span v-if="indra.typeView != 'S'">{{indra.textFull}}</span>
+                <button
+                  class="btn btn-link"
+                  v-if="indra.typeView == 'S'"
+                  v-on:click="indra.typeView = 'F'"
+                >mais</button>
+                <button
+                  class="btn btn-link"
+                  v-if="indra.typeView != 'S'"
+                  v-on:click="indra.typeView = 'S'"
                 >menos</button>
               </p>
             </div>

@@ -1,21 +1,53 @@
 <template>
   <div id="app">
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-      <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">PRS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#education">Formação Acadêmica</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experiences">Experiência</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mais sobre mim</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
     <router-view/>
-    <footer class="footer mt-auto p-3">
+    <footer id="contact" class="footer mt-auto p-3">
       <div class="container">
         <div class="row justify-content-md-center text-center">
           <div class="col-md-auto">
             <h1 class="mb-3">Entre em Contato</h1>
             <h5>
-              <i class="far fa-envelope"></i>&nbsp;paulo.prsdesouza@gmail.com
+              <i class="far fa-envelope"></i>&nbsp;
+              <a
+                class="text-dark text-decoration-none"
+                href="mailto:paulo.prsdesouza@gmail.com?Subject=Olá"
+                target="_top"
+              >paulo.prsdesouza@gmail.com</a>
             </h5>
             <h5>
-              <i class="fab fa-whatsapp"></i>&nbsp;+55(79)9 9973-3237
+              <i class="fab fa-whatsapp"></i>&nbsp;+55 (79) 9 9973-3237
             </h5>
             <h4 class="mb-3 mt-5">Ou através das redes sociais</h4>
 
