@@ -4,18 +4,17 @@
       <div class="card-body">
         <div class="row mb-4">
           <div class="col-md-3 mb-4 text-center">
-            <img src="../assets/front-matter-image.jpg" width="250" class="img-fluid">
+            <img :src="imageSrc" width="250" class="img-fluid">
           </div>
           <div class="col-md-9">
             <h1 class="mb-5">
               PAULO ROBERTO DE SOUZA
               <small class="text-muted">
-                <p style="font-size:1.2rem;">
-                  Full Stack Developer Web e Mobile, Pesquisador Acadêmico, Cientista de Dados, Consultor
-                </p>
+                <p
+                  style="font-size:1.2rem;"
+                >Full Stack Developer Web e Mobile, Pesquisador Acadêmico, Cientista de Dados, Consultor</p>
               </small>
             </h1>
-
             <div class="row">
               <div class="col-md-4">
                 <label>
@@ -76,7 +75,6 @@
             </div>
           </div>
         </div>
-
         <h3>Resumo</h3>
         <div class="row">
           <div class="col">
@@ -84,15 +82,25 @@
               Paulo Roberto é pesquisador acadêmico e
               <span class="font-weight-bold">Doutorando</span> do Programa de Pós-Graduação em Ciência da Computação da Universidade Federal da Bahia - UFBA desde o ano de 2019.
               Também é
-              <span class="font-weight-bold">Pós-Graduando</span> do curso de Perícias Criminais e Ciências Foresnes pela Universidade Tiradentes - UNIT desde 2019.
+              <span
+                class="font-weight-bold"
+              >Pós-Graduando</span> do curso de Perícias Criminais e Ciências Foresnes pela Universidade Tiradentes - UNIT desde 2019.
               Concluiu seu curso de
-              <span class="font-weight-bold">Mestrado</span> em Ciência da Computação pela Universidade Federal da Bahia - UFBA nos anos de 2017-2019.
+              <span
+                class="font-weight-bold"
+              >Mestrado</span> em Ciência da Computação pela Universidade Federal da Bahia - UFBA nos anos de 2017-2019.
               Antes, cursou
-              <span class="font-weight-bold">MBA</span> em Administração em Banco de Dados na Faculdade de Administração e Negócios de Sergipe - FANESE nos anos de 2014-2016.
+              <span
+                class="font-weight-bold"
+              >MBA</span> em Administração em Banco de Dados na Faculdade de Administração e Negócios de Sergipe - FANESE nos anos de 2014-2016.
               Paulo Roberto é
-              <span class="font-weight-bold">Graduado</span> em Sistemas Para Internet na Universidade Tiradentes - UNIT desde 2014.
+              <span
+                class="font-weight-bold"
+              >Graduado</span> em Sistemas Para Internet na Universidade Tiradentes - UNIT desde 2014.
               Trabalhou em empresas
-              <span class="font-weight-bold">multinacionais e nacionais</span> participando de vários projetos voltados tanto para a comunidade quanto para a indústria, nas áreas de:
+              <span
+                class="font-weight-bold"
+              >multinacionais e nacionais</span> participando de vários projetos voltados tanto para a comunidade quanto para a indústria, nas áreas de:
               desenvolvimento, análise e planejamento de software/banco de dados, dentro dos contextos Web, Mobile e Desktop nos anos de 2012-2017.
             </p>
             <a
@@ -112,6 +120,12 @@
   </div>
 </template>
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      imageSrc: require("../assets/front-matter-image.jpg")
+    };
+  }
+};
 </script>
 
