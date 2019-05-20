@@ -72,7 +72,7 @@
                 <i class="fas fa-user-graduate fa-2x align-middle"></i> Mestrado
                 <i class="fas fa-award"></i>
               </div>
-              <span class="float-right text-success">2017 - 2018</span>
+              <span class="float-right text-success">2017 - 2019</span>
             </div>
             <div class="card-body text-left text-muted">
               <h5 class="font-weight-bold mb-3">
