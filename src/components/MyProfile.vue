@@ -4,7 +4,11 @@
       <div class="card-body">
         <div class="row mb-4">
           <div class="col-md-3 mb-4 text-center">
-            <img src="https://github.com/pauloprsdesouza/professional-portfolio/blob/master/src/assets/front-matter-image.jpg?raw=true" width="250" class="img-fluid">
+            <img
+              src="https://github.com/pauloprsdesouza/professional-portfolio/blob/master/src/assets/front-matter-image.jpg?raw=true"
+              width="250"
+              class="img-fluid"
+            >
           </div>
           <div class="col-md-9">
             <h1 class="mb-5">
@@ -103,16 +107,13 @@
               >multinacionais e nacionais</span> participando de vários projetos voltados tanto para a comunidade quanto para a indústria, nas áreas de:
               desenvolvimento, análise e planejamento de software/banco de dados, dentro dos contextos Web, Mobile e Desktop nos anos de 2012-2017.
             </p>
-            <a
-              href="http://lattes.cnpq.br/6583921321802015"
-              class="btn btn-primary mb-4 mr-2"
-              target="_blank"
-            >Currículo Lattes</a>
-            <a
-              href="http://lattes.cnpq.br/6583921321802015"
-              class="btn btn-outline-danger mb-4"
-              target="_blank"
-            >Download Currículo em PDF</a>
+            <div class="text-center">
+              <a
+                href="http://lattes.cnpq.br/6583921321802015"
+                class="btn btn-primary mb-4 mr-2 btn-lg"
+                target="_blank"
+              >Currículo Lattes</a>
+            </div>
           </div>
         </div>
       </div>
@@ -120,8 +121,6 @@
   </div>
 </template>
 <script>
-export default {
- 
-};
+export default {};
 </script>
 

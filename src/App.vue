@@ -25,9 +25,6 @@
             <li class="nav-item">
               <a class="nav-link" href="#experiences">Experiência</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Mais sobre mim</a>
-            </li>
           </ul>
         </div>
       </div>
@@ -52,20 +49,34 @@
             <h4 class="mb-3 mt-5">Ou através das redes sociais</h4>
 
             <div class="row justify-content-md-center">
-              <div class="col-md-auto">
-                <i class="fab fa-linkedin fa-3x"></i>
+              <div class="col">
+                <a
+                  href="https://www.linkedin.com/in/pauloprsdesouza/"
+                  target="_blank"
+                  class="text-dark"
+                >
+                  <i class="fab fa-linkedin fa-3x"></i>
+                </a>
               </div>
-              <div class="col-md-auto">
-                <i class="fab fa-github-square fa-3x"></i>
+              <div class="col">
+                <a href="https://github.com/pauloprsdesouza" target="_blank" class="text-dark">
+                  <i class="fab fa-github-square fa-3x"></i>
+                </a>
               </div>
-              <div class="col-md-auto">
-                <i class="fab fa-twitter-square fa-3x"></i>
+              <div class="col">
+                <a href="https://twitter.com/paulo_prsouza" target="_blank" class="text-dark">
+                  <i class="fab fa-twitter-square fa-3x"></i>
+                </a>
               </div>
-              <div class="col-md-auto">
-                <i class="fab fa-instagram fa-3x"></i>
+              <div class="col">
+                <a href="https://instagram.com/paulo.rsouza" target="_blank" class="text-dark">
+                  <i class="fab fa-instagram fa-3x"></i>
+                </a>
               </div>
-              <div class="col-md-auto">
-                <i class="fab fa-whatsapp-square fa-3x"></i>
+              <div class="col">
+                <a href="https://wa.me/557999733237" target="_blank" class="text-dark">
+                  <i class="fab fa-whatsapp-square fa-3x"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -75,3 +86,6 @@
     </footer>
   </div>
 </template>
+<script>
+export default {};
+</script>
