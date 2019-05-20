@@ -5,7 +5,7 @@
       <div class="col-md-3 col-sm-6" data-aos="zoom-in">
         <div class="card text-center border-0">
           <div class="card-body">
-            <div class="circle circle-green">
+            <div class="circle circle-blue">
               <i class="fas fa-database"></i>
             </div>
             <h5 class="card-title">BANCO DE DADOS</h5>
@@ -16,7 +16,7 @@
       <div class="col-md-3 col-sm-6" data-aos="zoom-in">
         <div class="card text-center border-0">
           <div class="card-body">
-            <div class="circle circle-yellow">
+            <div class="circle circle-blue">
               <i class="fas fa-mobile-alt"></i>
             </div>
             <h5 class="card-title">MOBILE</h5>
@@ -27,7 +27,7 @@
       <div class="col-md-3 col-sm-6" data-aos="zoom-in">
         <div class="card text-center border-0">
           <div class="card-body">
-            <div class="circle circle-red">
+            <div class="circle circle-blue">
               <i class="fas fa-laptop-code"></i>
             </div>
             <h5 class="card-title">WEB</h5>
@@ -68,7 +68,7 @@
       <div class="col-md-3 col-sm-6" data-aos="zoom-in">
         <div class="card text-center border-0">
           <div class="card-body">
-            <div class="circle circle-orange">
+            <div class="circle circle-blue">
               <i class="far fa-thumbs-up"></i>
             </div>
             <h5 class="card-title">RECOMENDAÇÃO</h5>
@@ -81,7 +81,7 @@
       <div class="col-md-3 col-sm-6" data-aos="zoom-in">
         <div class="card text-center border-0">
           <div class="card-body">
-            <div class="circle circle-gray">
+            <div class="circle circle-blue">
               <i class="fas fa-chart-pie"></i>
             </div>
             <h5 class="card-title">MACHINE LEARNING</h5>
@@ -94,7 +94,7 @@
       <div class="col-md-3 col-sm-6" data-aos="zoom-in">
         <div class="card text-center border-0">
           <div class="card-body">
-            <div class="circle circle-purple">
+            <div class="circle circle-blue">
               <i class="fas fa-chart-bar"></i>
             </div>
             <h5 class="card-title">ANÁLISE DE DADOS</h5>
