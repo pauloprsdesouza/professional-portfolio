@@ -20,7 +20,7 @@
       <div class="banner-heading">
         <h1
           class="dysplay-1 text-center"
-        >Mais de 4 anos de experiência e desde sempre adquirindo conhecimento através dos mais renomados cursos...</h1>
+        >Mais de 5 anos de experiência e desde sempre adquirindo conhecimento através dos mais renomados cursos...</h1>
         <h1 class="display-4 text-center">
           <span>Em que posso ajudar?</span>
         </h1>

@@ -148,7 +148,7 @@ export default {
         textSmall:
           "Desenvolvimento de pesquisas na área de Sistemas de Recomendação, Recuperação da Informação, Web Semântica e Social Media ...",
         textFull:
-          "Desenvolvimento de pesquisas na área de Sistemas de Recomendação, Recuperação da Informação, Web Semântica e Social Media, bem como de atividades acadêmicas e publicação de artigos em conceituadas revistas e conferências. "
+          "Desenvolvimento de pesquisas na área de Sistemas de Recomendação, Recuperação da Informação, Web Semântica e Social Media, bem como de atividades acadêmicas e publicação de artigos em conceituadas revistas e conferências. Além de desenvolvimento de softwares Web e Mobile."
       },
       stefanini: {
         typeView: "S",
