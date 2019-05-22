@@ -8,6 +8,7 @@
               src="https://github.com/pauloprsdesouza/professional-portfolio/blob/master/src/assets/front-matter-image.jpg?raw=true"
               width="250"
               class="img-fluid"
+              alt="MSc. Paulo Roberto de Souza"
             >
           </div>
           <div class="col-md-9">
