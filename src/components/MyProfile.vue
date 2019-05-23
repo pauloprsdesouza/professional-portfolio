@@ -13,7 +13,7 @@
           </div>
           <div class="col-md-9">
             <h1 class="mb-5">
-              PAULO ROBERTO DE SOUZA
+              MSc. PAULO ROBERTO DE SOUZA
               <small class="text-muted">
                 <p
                   style="font-size:1.2rem;"
