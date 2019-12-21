@@ -89,7 +89,7 @@
               Também é
               <span
                 class="font-weight-bold"
-              >Pós-Graduando</span> do curso de Perícias Criminais e Ciências Foresnes pela Universidade Tiradentes - UNIT desde 2019.
+              >Pós-Graduando</span> do curso de Perícias Criminais e Ciências Forenses pela Universidade Tiradentes - UNIT desde 2019.
               Concluiu seu curso de
               <span
                 class="font-weight-bold"
